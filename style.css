@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    font-family: "Inter", sans-serif;
+    background-color: #F3F5FC;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.logo {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+main {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+
+}
+.texto-usuario {
+    width: 700px;
+    height: 710px;
+    border: none;
+    font-size: 32px;
+    color: #0A3871;
+    outline: none;
+    resize: none;
+}
+.texto-usuario::placeholder {
+    font-size: 32px;
+    color: #0A3871;
+}
+.texto-usuario::selection {
+    border: none;
+}
+.informacao {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.informacao img {
+    width: 16px;
+    height: 16px;
+}
+.informacao p {
+    font-size: 12px;
+    color: #868E96;
+}
+.botoes{
+    display: flex;
+    gap: 24px;
+}
+.btn-criptografar, .btn-descriptografar {
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 16px;
+}
+.btn-criptografar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    color: white;
+}
+.btn-descriptografar {
+    background-color: white;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+.texto-sistema {
+    width: 400px;
+    height: 800px;
+    background-image: url(/img/boneco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 24px;
+    color: #808080;
+    outline: none;
+    resize: none;
+    border-radius: 24px;
+    padding: 10px;
+}
+.informacao-erro {
+    position: absolute;
+    margin-top: -235px;
+    margin-left: 85px;
+    font-weight: 700;
+}
+.btn-copiar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    position: absolute;
+    margin-left: -375px;
+    margin-top: 730px;
+    display: none;
+}
